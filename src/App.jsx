@@ -23,6 +23,10 @@ function App() {
                 userInput={userInput}
                 setUserInputHandler={setUserInput}
             />
+            <CalculationTable
+                userInput={userInput}
+                calculationResult={calculationResult}
+            />
         </>
     )
 }
